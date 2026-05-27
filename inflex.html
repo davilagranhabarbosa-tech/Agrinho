@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho 2026</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background: linear-gradient(to bottom, #dff5e1, #ffffff);
+            color:#333;
+        }
+
+        header{
+            background: linear-gradient(90deg, #2e7d32, #66bb6a);
+            color:white;
+            padding:40px;
+            text-align:center;
+            box-shadow:0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        header h1{
+            font-size:3em;
+        }
+
+        header p{
+            margin-top:10px;
+            font-size:1.2em;
+        }
+
+        nav{
+            background:#1b5e20;
+            padding:15px;
+            text-align:center;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:0 15px;
+            font-weight:bold;
+            transition:0.3s;
+        }
+
+        nav a:hover{
+            color:#c8e6c9;
+        }
+
+        section{
+            padding:50px 10%;
+        }
+
+        .container{
+            display:flex;
+            flex-wrap:wrap;
+            gap:30px;
+            justify-content:center;
+        }
+
+        .card{
+            background:white;
+            width:300px;
+            border-radius:15px;
+            padding:25px;
+            box-shadow:0 5px 15px rgba(0,0,0,0.1);
+            transition:0.4s;
+        }
+
+        .card:hover{
+            transform:translateY(-10px);
+        }
+
+        .card h3{
+            color:#2e7d32;
+            margin-bottom:15px;
+        }
+
+        .banner{
+            background:url('https://images.unsplash.com/photo-1500937386664-56d1dfef3854?q=80&w=1200&auto=format&fit=crop') center/cover;
+            height:400px;
+            border-radius:20px;
+            margin-top:30px;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            color:white;
+            text-shadow:2px 2px 5px black;
+            font-size:2em;
+            font-weight:bold;
+        }
+
+        footer{
+            background:#1b5e20;
+            color:white;
+            text-align:center;
+            padding:20px;
+            margin-top:40px;
+        }
+
+        .btn{
+            display:inline-block;
+            margin-top:15px;
+            padding:10px 20px;
+            background:#43a047;
+            color:white;
+            text-decoration:none;
+            border-radius:10px;
+            transition:0.3s;
+        }
+
+        .btn:hover{
+            background:#2e7d32;
+        }
+
+        @media(max-width:768px){
+            header h1{
+                font-size:2em;
+            }
+
+            .banner{
+                font-size:1.4em;
+                text-align:center;
+                padding:20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Projeto Agrinho 2026</h1>
+        <p>Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente</p>
+    </header>
+
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#objetivos">Objetivos</a>
+        <a href="#sustentabilidade">Sustentabilidade</a>
+        <a href="#tecnologia">Tecnologia</a>
+    </nav>
+
+    <section id="sobre">
+        <h2>Sobre o Agrinho 2026</h2>
+        <br>
+        <p>
+            O Agrinho 2026 incentiva estudantes a refletirem sobre a importância
+            do agronegócio sustentável, da preservação ambiental e da inovação
+            tecnológica no campo.
+        </p>
+
+        <div class="banner">
+            Construindo um futuro sustentável 🌱
+        </div>
+    </section>
+
+    <section id="objetivos">
+        <h2>Objetivos do Projeto</h2>
+        <br>
+
+        <div class="container">
+
+            <div class="card">
+                <h3>🌿 Sustentabilidade</h3>
+                <p>
+                    Incentivar práticas agrícolas responsáveis que respeitem
+                    o meio ambiente e reduzam impactos ambientais.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>🚜 Tecnologia no Campo</h3>
+                <p>
+                    Mostrar como a tecnologia ajuda produtores rurais a melhorar
+                    a produção e preservar recursos naturais.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>📚 Educação</h3>
+                <p>
+                    Desenvolver consciência cidadã e responsabilidade ambiental
+                    entre os estudantes.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="sustentabilidade">
+        <h2>Sustentabilidade</h2>
+        <br>
+
+        <p>
+            A sustentabilidade é essencial para garantir alimentos de qualidade,
+            proteger a natureza e melhorar a qualidade de vida das futuras gerações.
+            O Agrinho promove ideias inovadoras para unir produção agrícola e preservação ambiental.
+        </p>
+
+        <a href="#" class="btn">Saiba Mais</a>
+    </section>
+
+    <section id="tecnologia">
+        <h2>Tecnologia e Inovação</h2>
+        <br>
+
+        <p>
+            O uso de drones, sensores, inteligência artificial e irrigação inteligente
+            ajuda a aumentar a produtividade no campo de forma sustentável.
+        </p>
+
+        <br>
+
+        <div class="container">
+
+            <div class="card">
+                <h3>🤖 Inteligência Artificial</h3>
+                <p>
+                    Auxilia no monitoramento das plantações e prevenção de doenças.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>💧 Economia de Água</h3>
+                <p>
+                    Sistemas inteligentes evitam desperdícios e melhoram a irrigação.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>🌎 Preservação Ambiental</h3>
+                <p>
+                    Tecnologias sustentáveis ajudam a reduzir impactos ambientais.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 - Projeto Agrinho | Desenvolvido para fins educacionais</p>
+    </footer>
+
+</body>
+</html>
