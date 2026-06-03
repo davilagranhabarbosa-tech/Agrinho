@@ -1,0 +1,97 @@
+```html
+<!-- MENU -->
+<nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#objetivos">Objetivos</a>
+    <a href="#campo-cidade">Campo e Cidade</a>
+    <a href="#sustentabilidade">Sustentabilidade</a>
+    <a href="#tecnologia">Tecnologia</a>
+</nav>
+
+<style>
+    .banner{
+        position:relative;
+        height:400px;
+        border-radius:20px;
+        margin-top:30px;
+        overflow:hidden;
+    }
+
+    .banner img{
+        width:100%;
+        height:100%;
+        object-fit:cover;
+    }
+
+    .texto-banner{
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%, -50%);
+        color:white;
+        font-size:2em;
+        font-weight:bold;
+        text-shadow:2px 2px 5px black;
+        text-align:center;
+    }
+
+    #campo-cidade{
+        background:#f1f8e9;
+        border-radius:20px;
+        margin:30px 10%;
+        box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    @media(max-width:768px){
+        .texto-banner{
+            font-size:1.4em;
+            padding:20px;
+        }
+    }
+</style>
+
+<!-- SEÇÃO SOBRE -->
+<section id="sobre">
+    <h2>Sobre o Agrinho 2026</h2>
+    <br>
+
+    <p>
+        O Agrinho 2026 incentiva estudantes a refletirem sobre a importância
+        do agronegócio sustentável, da preservação ambiental e da inovação
+        tecnológica no campo.
+    </p>
+
+    <div class="banner">
+        <img
+            src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854?q=80&w=1200&auto=format&fit=crop"
+            alt="Plantação sustentável representando a união entre produção agrícola e preservação ambiental"
+        >
+
+        <div class="texto-banner">
+            Construindo um futuro sustentável 🌱
+        </div>
+    </div>
+</section>
+
+<!-- NOVA SEÇÃO -->
+<section id="campo-cidade">
+    <h2>Conexão Campo e Cidade</h2>
+    <br>
+
+    <p>
+        O campo e a cidade estão conectados de diversas formas. No campo são
+        produzidos alimentos, matérias-primas e recursos essenciais para a vida
+        da população. Já a cidade oferece tecnologia, conhecimento, serviços e
+        inovação que ajudam a modernizar e fortalecer a produção rural.
+    </p>
+
+    <br>
+
+    <p>
+        Essa parceria é fundamental para o desenvolvimento sustentável, pois
+        promove o crescimento econômico, a geração de empregos e a preservação
+        dos recursos naturais. O Agrinho busca conscientizar os estudantes sobre
+        a importância dessa relação para construir um futuro melhor para todos.
+    </p>
+</section>
+```
